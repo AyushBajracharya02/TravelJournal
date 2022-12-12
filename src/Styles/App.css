@@ -1,0 +1,11 @@
+.journal{
+    width: 45%;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    min-height: 50px;
+    padding: 8% 8% 0 8%;
+}

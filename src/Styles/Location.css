@@ -1,0 +1,50 @@
+@font-face {
+    font-family: opensans;
+    src: url(../Fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+.location-card{
+    max-height: 200px;
+    display: flex;
+    margin-bottom: 10%;
+    justify-content: space-between;
+    gap: 5%;
+    color: #2B283A;
+    font-family: opensans;
+}
+
+.location-img{
+    border-radius: .5em;
+}
+
+.card-header{
+    display: flex;
+    max-height: 20px;
+    align-items: center;
+    margin-top: 5%;
+    gap: 2.5%;
+    font-size: 1rem;
+}
+
+.card-header>img{
+    max-height: 15px;
+    filter: invert(62%) sepia(20%) saturate(6610%) hue-rotate(323deg) brightness(98%) contrast(96%);
+}
+
+h2{
+    margin: 1% 0 0 0;
+}
+
+p{
+    margin: 5% 0 0 0;
+    font-size: .8rem;
+}
+
+p>b{
+    display: block;
+    margin-bottom: 2%;
+}
+
+a{
+    color: #918E9B;
+}

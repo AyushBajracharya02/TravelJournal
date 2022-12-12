@@ -1,0 +1,27 @@
+@font-face {
+    font-family: opensans;
+    src: url(../Fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+nav{
+    height: 55px;
+    display: flex;
+    background-color: #F55A5A;
+    padding: 1em;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5%;
+    font-size: 1rem;
+}
+
+nav>img{
+    filter: invert(1);
+    height: 90%;
+}
+
+nav>a{
+    color: white;
+    text-decoration: none;
+    font-family: opensans;
+    font-weight: 600;
+}
